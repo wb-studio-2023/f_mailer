@@ -1,0 +1,185 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background: rgb(253, 253, 253);
+  font-size: 18px;
+  color: #373737;
+}
+body header .header_image {
+  text-align: center;
+  width: 100%;
+  background: url("/img/common/pc/header_test_back.png");
+}
+body header table.header_form {
+  position: absolute;
+  left: 50%;
+  top: 400px;
+  width: 520px;
+}
+body header table.header_form input[type=email],
+body header table.header_form input[type=password] {
+  width: 90%;
+  height: 30px;
+}
+body header table.header_form td.rule {
+  font-size: 12px;
+}
+body header table.header_form td.button {
+  text-align: center;
+  padding-top: 10px;
+}
+body header table.header_form td.button input[type=submit] {
+  cursor: pointer;
+  height: 45px;
+  width: 50%;
+  transition: 1s;
+}
+body header table.header_form td.button input[type=submit]:hover {
+  transform: scale(1.1);
+}
+body main .yellow {
+  color: #ff0;
+}
+body main .red {
+  color: #ff6262;
+}
+body main .contents_inner {
+  width: 980px;
+  margin: 50px auto 80px;
+}
+body main .contents_inner h2 {
+  padding: 1rem 2rem;
+  color: #fff;
+  background: linear-gradient(#a10000 0%, #610202 50%, #a10000 100%);
+  box-shadow: 5px 5px 0 #ff2b2b;
+}
+body main .contents_inner .worries {
+  display: flex;
+}
+body main .contents_inner .worries ul {
+  width: 75%;
+  background: #ececec;
+  border-radius: 8px; /*角の丸み*/
+  padding: 0.2em 0.5em 1em 2em;
+}
+body main .contents_inner .worries ul li {
+  line-height: 1.5;
+  padding: 0.8em 0 0.2em;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 3px dotted #373737;
+}
+body main .contents_inner .worries .image {
+  width: 25%;
+  position: relative;
+}
+body main .contents_inner .worries .image img {
+  width: 100%;
+  position: absolute;
+  bottom: 2em;
+}
+body main .contents_inner .selected_reason {
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 75px 0;
+}
+body main .contents_inner .selected_reason .box h3 {
+  position: relative;
+  height: 50px;
+  margin: 0px 160px 0px 35px;
+  padding: 0.5rem 2rem 0 2rem;
+  word-break: break-all;
+  color: #fff;
+  background: #7c1919;
+  font-size: 26px;
+  letter-spacing: 1.2;
+}
+body main .contents_inner .selected_reason .box h3:after {
+  position: absolute;
+  top: 0;
+  right: -55px;
+  width: 0;
+  height: 0;
+  content: "";
+  border-width: 58px 55px 0 0;
+  border-style: solid;
+  border-color: #7c1919 transparent transparent transparent;
+}
+body main .contents_inner .selected_reason .box h3 span.title_num {
+  font-size: 40px;
+  font-size: 4rem;
+  position: absolute;
+  top: -4px;
+  right: -120px;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #7c1919;
+}
+body main .contents_inner .selected_reason .box h3 span.stand_out {
+  color: #DA8E00;
+  background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body main .contents_inner .selected_reason .box p {
+  padding: 15px 10rem 40px 72px;
+  margin: 0;
+  line-height: 2;
+}
+body main .contents_inner .add_function .function_area {
+  display: flex;
+}
+body main .contents_inner .add_function .function_area .box {
+  width: 40%;
+  padding: 2em 1em;
+  margin: 2em 5%;
+  color: #610202;
+  background: #ececec;
+  border-top: solid 5px #a10000;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+body main .contents_inner .add_function .function_area .box p {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body main .contents_inner .voice .swiper {
+  width: 80%;
+  margin: 0 auto;
+}
+body main .contents_inner .voice .swiper .swiper-wrapper {
+  height: 300px;
+}
+body main .contents_inner .voice .swiper .swiper-wrapper .swiper-slide {
+  width: 45%;
+}
+body main .contents_inner .voice .swiper .swiper-button-next, body main .contents_inner .voice .swiper .swiper-button-prev {
+  bottom: 0;
+  top: 100%;
+  width: 20px;
+  height: 20px;
+}
+body main .contents_inner .voice .swiper .swiper-button-next:after, body main .contents_inner .voice .swiper .swiper-button-prev:after {
+  font-weight: bold;
+  font-size: 16px;
+}
+body main .contents_inner .voice .swiper .swiper-button-prev {
+  left: 300px;
+}
+body main .contents_inner .voice .swiper .swiper-button-next {
+  right: 300px;
+}
+body main .contents_inner p.text_contents {
+  margin: 30px 0 60px;
+}
+body main .fs_26 {
+  font-size: 26px;
+}
+
+/*# sourceMappingURL=common.css.map*/

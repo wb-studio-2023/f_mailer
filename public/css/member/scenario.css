@@ -1,0 +1,59 @@
+.list {
+  width: 100%;
+  font-size: 12px;
+}
+.list th {
+  background: #eee;
+  font-weight: normal;
+}
+.list td.center {
+  text-align: center;
+}
+
+.regist table,
+.edit table {
+  width: 100%;
+}
+.regist table tr th,
+.edit table tr th {
+  background: #eee;
+}
+.regist table tr td,
+.edit table tr td {
+  padding: 20px;
+}
+.regist table tr td input[type=text],
+.edit table tr td input[type=text] {
+  height: 30px;
+  width: 100%;
+}
+.regist table tr:not(:last-of-type) th,
+.regist table tr:not(:last-of-type) td,
+.edit table tr:not(:last-of-type) th,
+.edit table tr:not(:last-of-type) td {
+  border-bottom: 1px solid #ccc;
+}
+
+.button_area {
+  text-align: center;
+  margin: 40px;
+}
+.button_area button {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 35px;
+  margin: 0 15px;
+}
+
+p.validation {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #ff0808;
+}
+p.validation:last-of-type {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=scenario.css.map*/

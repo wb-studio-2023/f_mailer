@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+
+    header {
+        // background: #ffdddd;
+        border-bottom: 1px solid #eee;
+
+        .header {
+            width: 980px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+
+            .header_link {
+                a {
+                    vertical-align: baseline;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    main {
+        width: 980px;
+        min-height: 508px;
+        margin: 0 auto;
+        padding: 32px 20px 40px;
+
+        table {
+            border-collapse: collapse;
+        }
+    }
+
+    footer {
+        padding: 20px;
+        background: #eee;
+
+        .footer {
+            .footer_site_title {
+                text-align: center;
+            }
+            .footer_link_list {
+                font-size: 12px;
+                text-align: center;
+                padding: 20px;
+
+                a {
+                    padding: 0 5px;
+                }
+            }
+            .footer_copyright_area {
+                font-size: 10px;
+                text-align: center;
+            }
+        }
+    }
+}
