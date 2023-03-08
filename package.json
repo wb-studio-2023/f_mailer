@@ -27,11 +27,5 @@
     },
     "dependencies": {
         "swiper": "^9.1.0"
-    },
-    "name": "my-laravel-api-app",
-    "version": "1.0.0",
-    "scripts": {
-        "prod": "",
-        "production": ""
     }
 }
